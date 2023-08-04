@@ -1,0 +1,67 @@
+img {                       /* will edit image size specifically height and width*/
+    height: 150px;
+    width: 150px;
+ }
+ 
+ 
+ .every-odd li:nth-child(odd) {  /* a class that will make every odd line apart of the list light blue*/
+     background-color: rgb(65, 182, 236);
+ }
+ 
+ 
+ table {
+     border-collapse: collapse;
+     width: 100%                   /* will make the table stretch out from left to right along the entire page*/
+ }
+ 
+ 
+ th, td {
+     padding: 8px;
+     text-align: left;
+     border-bottom: 1px dotted black;
+ }
+ 
+ 
+ tr:nth-child(even) {
+     background-color:rgb(143, 205, 244);
+ }
+ 
+ 
+ tr:hover {
+      background-color: blue;
+ }
+ 
+ 
+ #box-model {
+     padding: 20px;
+     border-style: solid;
+     border-width: 3px;
+     margin: 30px;
+     background-color:aquamarine;
+ }
+ 
+ 
+ body {
+     Background-color: rgb(200, 195, 195);
+ }
+ 
+ 
+ h1 {
+     color: white;
+ }
+ 
+ 
+ h2 {
+     color:rgb(11, 115, 234);
+ }
+ 
+ 
+ div {
+     background-color:rgb(196, 224, 255);
+     border-style: solid;
+     border-color: black;
+     border-radius: 5px;
+ 
+ 
+ }
+ 
